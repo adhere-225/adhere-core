@@ -2,17 +2,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <artifactId>adhere</artifactId>
-        <groupId>com.adhere</groupId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
+
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>com.adhere</groupId>
+        <artifactId>adhere-framework</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <!-- 说明：groupId 继承自父项目单独使用此模块时应添加上 -->
     <artifactId>adhere-core</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>adhere-core</name>
+    <description>adhere core module</description>
 
     <dependencies>
-
 
     </dependencies>
 
